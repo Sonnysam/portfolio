@@ -1,0 +1,13 @@
+.modal-header{
+    background: orange;
+    color: #fff;
+}
+h5.modal-title {
+    color: seagreen;
+    font-size: 2rem;
+    font-family: cursive;
+}
+.required::after{
+    content: '*';
+    color: red;
+}

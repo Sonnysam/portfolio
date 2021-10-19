@@ -1,0 +1,32 @@
+:root{
+    --color: #ff6734;
+    --white: #fff;
+  --black: #1c2b2d;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+  --twitter:  hsl(207, 93%, 46%);
+  --fb:hsl(221, 89%, 41%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.brand{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+    margin-right: auto;
+}
+.fas{
+    float: left;
+    padding: 15px 20px;
+    /* padding-left: 15px; */
+    font-size: 30px;
+    transition: ease-in-out 1s;
+}

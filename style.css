@@ -1,0 +1,246 @@
+/* FLOATING BUTTON*/
+#btnScroll{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    background: hsl(240, 65%, 54%);
+    color: #fff;
+    border: 1px solid hsl(240, 65%, 54%);;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    outline: none;
+    cursor: pointer;
+}
+#btnScroll:active{
+    background: hsl(240, 82%, 57%);
+}
+
+body{
+    font-family: sans-serif;
+}
+a.navbar-brand {
+    font-size: 2rem;
+    font-family:cursive;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+/* CONTENT CSS */
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-weight: 100;
+    font-size:medium;
+    font-family: sans-serif;
+    position:relative;
+}
+.amt{
+    font-size: 17px;
+    font-weight: 700;
+    position:absolute;
+    right:0;
+    bottom:0;
+    margin-bottom: 23px;
+    margin-right: 5px;
+}
+
+/* Explore More Button */
+
+.btn.btn-light.btn-lg.mt-4 {
+    background: #FF6347;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 200;
+    transition: transform 1s;
+
+}
+.btn.btn-light.btn-lg.mt-4:hover{
+    transform: scale(1.05);
+}
+span {
+    color: red;
+}
+label.form-label.required {
+    color: black;
+}
+label.form-label.required::after {
+    content: " *";
+    color: red;
+}
+
+/*SONNYTECH ACADEMY*/
+.youtube{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 14px;
+}
+.click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.click a{
+    text-decoration: none;
+    color:#FF6347;
+}
+
+
+/*ABOUT ME SECTION*/
+
+.about {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+img.rounded-circle{
+    width: 25%;
+  height: 25%;
+  border-radius: 50%;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: gray;
+    padding-top: 10px;
+}
+p.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: gray;
+    margin-top: -17px;
+}
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+.intro{
+    font-size: 14px;
+    color: gray;
+}
+
+
+
+
+
+
+/* Social links */
+
+.social-link{
+    text-align: center;
+    justify-content: space-evenly;
+    box-sizing: inline;
+    padding: 25px 10px;
+    cursor: pointer;
+    transition:  0.5s;
+}
+.social-link img{
+    height: 40px;
+    margin: 15px;
+    cursor: pointer;
+} 
+.social-link p{
+    padding-bottom: 0px;
+}
+i.fab.fa-facebook-f {
+    color: black;
+    padding: 0 5px;
+    font-size: 22px;
+}
+i.fab.fa-facebook-f:hover{
+    color: hsl(221, 89%, 41%);
+}
+i.fab.fa-twitter {
+    color: black;
+    padding: 0 5px;
+    font-size: 22px;
+}
+i.fab.fa-twitter:hover{
+    color: hsl(207, 93%, 46%);
+}
+i.fab.fa-instagram {
+    color: black;
+    font-size: 22px;
+    padding: 0 5px;
+}
+i.fab.fa-instagram:hover{
+    color: rgba(197, 4, 4, 0.575);
+}
+i.fab.fa-github {
+    color: black;
+    font-size: 22px;
+    padding: 0 5px;
+}
+/* i.fab.fa-github:hover{
+    color :rgba(0, 0, 0, 0.911);
+} */
+
+/* .social-link img:hover{
+    transform: translateY(-10px);
+} */
+
+/* marquee  */
+
+marquee {
+    color:seagreen;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: cursive;
+}
+
+/* Footer */
+.rights{
+background: lightgray;
+}
+.copyright{
+    font-size:16px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+p.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+}
+/* .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:16px;
+} */
+
+/* .copyright{
+    height: 60px;
+    line-height: 60px;
+    background: lightgray;
+    color:gray;
+    font-size: 16px; 
+}
+.copy-text{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   padding: auto;
+} */

@@ -1,0 +1,33 @@
+/* FLOATING BUTTON*/
+#btnScroll{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    background: hsl(240, 65%, 54%);
+    color: #fff;
+    border: 1px solid hsl(240, 65%, 54%);;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    outline: none;
+    cursor: pointer;
+}
+#btnScroll:active{
+    background: hsl(240, 82%, 57%);
+}
+body{
+    font-family: sans-serif;
+}
+a.navbar-brand {
+    font-size: 2rem;
+    font-family:cursive;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+a.nav-link:hover {
+    color: black;
+    font-size: 17px;
+    font-weight:600;
+}
