@@ -1,192 +1,257 @@
-/* FLOATING BUTTON*/
-#btnScroll{
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    z-index: 1;
-    background: hsl(240, 65%, 54%);
-    color: #fff;
-    border: 1px solid hsl(240, 65%, 54%);;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    outline: none;
-    cursor: pointer;
-}
-#btnScroll:active{
-    background: hsl(240, 82%, 57%);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,900&display=swap");
+
+:root {
+  --color: #ff6734;
+  --white: #fff;
+  --black: #1c2b2d;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+  --twitter: hsl(207, 93%, 46%);
+  --fb: hsl(221, 89%, 41%);
 }
 
-body{
-    font-family: sans-serif;
+/* FLOATING BUTTON*/
+#btnScroll {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  z-index: 1;
+  background: hsl(240, 65%, 54%);
+  color: #fff;
+  border: 1px solid hsl(240, 65%, 54%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  outline: none;
+  cursor: pointer;
+}
+#btnScroll:active {
+  background: hsl(240, 82%, 57%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 a.navbar-brand {
-    font-size: 2rem;
-    font-family:cursive;
-    font-weight: 600;
-    letter-spacing: 0.5px;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
+.navbar-toggler {
+  box-shadow: none !important;
+}
+.fa-bars {
+  font-size: 2rem;
+}
+button.navbar-toggler {
+  border: none;
+}
+i.fa.fa-bars {
+  color: black;
+  font-size: 2rem;
+}
+
 /* CONTENT CSS */
-h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 15px;
-    font-weight: 100;
-    font-size:medium;
-    font-family: sans-serif;
-    position:relative;
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-weight: 100;
+  font-size: medium;
+  font-family: "Poppins", sans-serif;
+  position: relative;
 }
-.amt{
-    font-size: 17px;
-    font-weight: 700;
-    position:absolute;
-    right:0;
-    bottom:0;
-    margin-bottom: 23px;
-    margin-right: 5px;
+a.btn.btn-outline-success.twitter {
+  /* display: grid; */
+  color: var(--twitter);
+  background-color: none;
+  border: 1px solid var(--twitter);
+}
+a.btn.btn-outline-success.twitter:hover {
+  color: var(--white);
+  background-color: var(--twitter);
+  outline: none;
+}
+a.btn.btn-outline-primary {
+  display: grid;
+}
+a.btn.btn-outline-warning {
+  display: grid;
+}
+a.btn.btn-outline-secondary {
+  display: grid;
+}
+.amt {
+  font-size: 17px;
+  font-weight: 700;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 23px;
+  margin-right: 5px;
+  /* display: none; */
+}
+.react-amt{
+   font-size: 17px;
+  font-weight: 700;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 23px;
+  margin-right: 5px;
 }
 
 /* Explore More Button */
 
 .btn.btn-light.btn-lg.mt-4 {
-    background: #FF6347;
-    color: #fff;
-    border-radius: 25px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 200;
-    transition: transform 1s;
-
+  background: #ff6347;
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 200;
+  transition: transform 1s;
 }
-.btn.btn-light.btn-lg.mt-4:hover{
-    transform: scale(1.05);
+.btn.btn-light.btn-lg.mt-4:hover {
+  transform: scale(1.05);
 }
 span {
-    color: red;
+  color: red;
 }
 label.form-label.required {
-    color: black;
+  color: black;
 }
 label.form-label.required::after {
-    content: " *";
-    color: red;
+  content: " *";
+  color: red;
 }
 
 /*SONNYTECH ACADEMY*/
-.youtube{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: gray;
-    font-size: 14px;
+.channel-art {
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;
 }
-.click{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
+.youtube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-size: 14px;
 }
-.click a{
-    text-decoration: none;
-    color:#FF6347;
+.click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
 }
-
+.click a {
+  text-decoration: none;
+  color: #ff6347;
+}
 
 /*ABOUT ME SECTION*/
 
 .about {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-img.rounded-circle{
-    width: 25%;
+img.rounded-circle {
+  width: 25%;
   height: 25%;
   border-radius: 50%;
 }
-.name{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: gray;
-    padding-top: 10px;
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: gray;
+  padding-top: 10px;
 }
-p.description{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 13px;
-    font-weight: 400;
-    color: gray;
-    margin-top: -17px;
+p.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: gray;
+  margin-top: -17px;
 }
-.hello{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: gray;
+.hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
 }
-.intro{
-    font-size: 14px;
-    color: gray;
+.intro {
+  font-size: 14px;
+  color: gray;
 }
-
-
-
-
-
 
 /* Social links */
 
-.social-link{
-    text-align: center;
-    justify-content: space-evenly;
-    box-sizing: inline;
-    padding: 25px 10px;
-    cursor: pointer;
-    transition:  0.5s;
+.social-link {
+  text-align: center;
+  justify-content: space-evenly;
+  box-sizing: inline;
+  padding: 25px 10px;
+  cursor: pointer;
+  transition: 0.5s;
 }
-.social-link img{
-    height: 40px;
-    margin: 15px;
-    cursor: pointer;
-} 
-.social-link p{
-    padding-bottom: 0px;
+.social-link img {
+  height: 40px;
+  margin: 15px;
+  cursor: pointer;
+}
+.social-link p {
+  padding-bottom: 0px;
 }
 i.fab.fa-facebook-f {
-    color: black;
-    padding: 0 5px;
-    font-size: 22px;
+  color: black;
+  padding: 0 5px;
+  font-size: 22px;
 }
-i.fab.fa-facebook-f:hover{
-    color: hsl(221, 89%, 41%);
+i.fab.fa-facebook-f:hover {
+  color: hsl(221, 89%, 41%);
 }
 i.fab.fa-twitter {
-    color: black;
-    padding: 0 5px;
-    font-size: 22px;
+  color: black;
+  padding: 0 5px;
+  font-size: 22px;
 }
-i.fab.fa-twitter:hover{
-    color: hsl(207, 93%, 46%);
+i.fab.fa-twitter:hover {
+  color: hsl(207, 93%, 46%);
 }
 i.fab.fa-instagram {
-    color: black;
-    font-size: 22px;
-    padding: 0 5px;
+  color: black;
+  font-size: 22px;
+  padding: 0 5px;
 }
-i.fab.fa-instagram:hover{
-    color: rgba(197, 4, 4, 0.575);
+i.fab.fa-instagram:hover {
+  color: rgba(197, 4, 4, 0.575);
 }
 i.fab.fa-github {
+  color: black;
+  font-size: 22px;
+  padding: 0 5px;
+}
+i.fa.fa-envelope {
     color: black;
     font-size: 22px;
     padding: 0 5px;
+}
+i.fa.fa-envelope:hover {
+    color: rgba(197, 4, 4, 0.575);
 }
 /* i.fab.fa-github:hover{
     color :rgba(0, 0, 0, 0.911);
@@ -199,48 +264,151 @@ i.fab.fa-github {
 /* marquee  */
 
 marquee {
-    color:seagreen;
-    margin-bottom: 20px;
-    font-size: 16px;
-    font-family: cursive;
+  color: seagreen;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: cursive;
 }
 
 /* Footer */
-.rights{
-background: lightgray;
+.rights {
+  background: lightgray;
 }
-.copyright{
-    font-size:16px;
-    color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
+.copyright {
+  font-size: 16px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
 }
 p.right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: gray;
 }
-/* .right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size:16px;
-} */
 
-/* .copyright{
-    height: 60px;
-    line-height: 60px;
-    background: lightgray;
-    color:gray;
-    font-size: 16px; 
+/* WHATSAPP CSS */
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1;
 }
-.copy-text{
-   display: flex;
-   justify-content:center;
-   align-items: center;
-   padding: auto;
-} */
+
+i.fa.fa-whatsapp.whatsapp-icon:hover {
+  color: var(--white);
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+
+/* BUYMECOFFEE */
+.buyme-img {
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  bottom: 120px;
+  right: 45px;
+  background-color: yellow;
+  border-radius: 50px;
+  padding: 4px;
+  box-shadow: 2px 2px 3px #999;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  }
+  .buyme-img {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    z-index: 1;
+    bottom: 70px;
+    right: 12px;
+    background-color: yellow;
+    border-radius: 50px;
+    padding: 3px;
+    box-shadow: 2px 2px 3px #999;
+  }
+}
+
+/* SMOOTH SCROLL */
+#about-me {
+  scroll-behavior: smooth;
+}
+
+
+/* OUR SERVICES SECTION */
+img.card-img-top.it {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background: none;
+  margin-top: 1.5rem;
+}
+.card.blue,
+.card-body.blue,
+p.card-text.blue
+{
+    background: rgb(199, 219, 247);
+}
+.card.violet,
+.card-body.violet,
+p.card-text.violet
+{
+    background: rgb(255, 185, 255);
+}
+.card.green,
+.card-body.green,
+p.card-text.green
+{
+    background: rgb(179, 255, 179);
+}
+.card.yellow,
+.card-body.yellow,
+p.card-text.yellow
+{
+    background: rgb(255, 255, 149);
+}
+
+/* CLIENTS SECTION */
+.plus-icon{
+  font-size: 2rem;
+  margin-left: 3px;
+  color: #222831;
+  margin-bottom: 1rem;
+}
+.n{
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+.v{
+  color: var(--light-blue);
+  font-size: 2rem;
+}

@@ -9,36 +9,51 @@
   <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="fonts/css/all.min.css">
     <link rel="stylesheet" href="fonts/css/fontawesome.min.css">
+    <link rel="shortcut icon" href="images/sonnyTesonnytech-rbg.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
-  <!--FLOATING BUTTUN-->
-  <button id="btnScroll">
-    <i class="fas fa-arrow-up"></i>
-  </button>
+
+  <!-- WHATSAPP ICON -->
+  <a href="https://wa.me/233594602088" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+
+  <!-- BUYMECOFFEE -->
+  <a href="https://www.buymeacoffee.com/sonnytech" class="buyme" target="_blank">
+    <img src="images/buymecoffee.png" class="buyme-img">
+  </a>
+  
+
+
+
+  
                 <!-- NAVBAR -->    
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">SonyTech</a>
+    <a class="navbar-brand" href="index.html">SonnyTech</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <!-- <span class="navbar-toggler-icon"></span> -->
+      <i class="fa fa-bars" aria-hidden="true"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="#about-me" id="">About</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#services" id="">Services</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Courses
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="index.html">HTML</a></li>
-            <li><a class="dropdown-item" href="CSS_3.html">CSS</a></li>
+            <li><a class="dropdown-item" href="https://youtu.be/PSB0GUEw4Xg">HTML</a></li>
+            <li><a class="dropdown-item" href="https://youtu.be/hDOhWyExutM">CSS</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="JavaScript.html">JAVASCRIPT</a></li>
+            <li><a class="dropdown-item" href="https://youtu.be/3ynLHk7Mt9Q">Python</a></li>
           </ul>
         </li>
       </ul>
@@ -111,7 +126,7 @@
   <h1>Featured Courses</h1>
   <div class="container">
      <div class="row">
-         <div class="col-md-4"> 
+         <div class="col-md-4 mt-3"> 
              <div class="card">
                  <img src="images/htmlcss.png" alt="" class="card-img-top" height="151px">
                  <div class="card-body">
@@ -122,11 +137,11 @@
                         Become a web genius by learning HTML 5 & CSS 3 and by creating 5 well designed and animated website from scratch.....from Zero to Hero!
                      </p>
                      <a href="HTML_5.html" class="btn btn-outline-primary" >Enroll Now</a>
-                     <div class="amt">GH₵ 50.99</div>
+                     <!-- <div class="amt">GH₵ 50.99</div> -->
                  </div>
              </div>
          </div>
-         <div class="col-md-4"> 
+         <div class="col-md-4 mt-3"> 
              <div class="card">
                  <img src="images/js.png" alt="" class="card-img-top" height="200px">
                  <div class="card-body">
@@ -137,11 +152,26 @@
                          Become a genius from beginner Javascript to building Awesome Web Apps and Websites!
                      </p>
                      <a href="JavaScript.html" class="btn btn-outline-warning" >Enroll Now</a>
-                     <div class="amt">GH₵ 40.99</div>
+                     <!-- <div class="amt">GH₵ 40.99</div> -->
                  </div>
              </div>
          </div>
-         <div class="col-md-4"> 
+          <div class="col-md-4 mt-3"> 
+             <div class="card">
+                 <img src="images/photo_2022-02-21_13-07-31.jpg" alt="" class="card-img-top" height="151px">
+                 <div class="card-body">
+                     <h4 class="card-title">
+                         The Python Course
+                     </h4>
+                     <p class="card-text mb-3">
+                        Get started with Python and become a Python Ninja! Learn to automate your tasks with Python!
+                     </p>
+                     <a href="https://youtu.be/3ynLHk7Mt9Q" class="btn btn-outline-secondary" >Enroll Now</a>
+                     <!-- <div class="amt">GH₵ 50.99</div> -->
+                 </div>
+             </div>
+         </div>
+         <div class="col-md-4 mt-3"> 
              <div class="card">
                  <img src="images/react.jpg" alt="" class="card-img-top" height="223px">
                  <div class="card-body">
@@ -151,8 +181,8 @@
                      <p class="card-text mb-3">
                         Build 3 Awesome Web Apps with React!
                      </p>
-                     <a href="react.html" class="btn btn-outline-success" >Enroll Now</a>
-                     <div class="amt">GH₵ 30.99</div>
+                     <a href="react.html" class="btn btn-outline-success twitter" >Enroll Now</a>
+                     <div class="amt react-amt"><span class="mx-1">Not Available<sup> <del>GH₵ 30.99</del></sup> </span></div>
                  </div>
              </div>
          </div>
@@ -177,7 +207,7 @@
          <div class="col-md-12">
              <div class="alert alert-success alert-dismissible fade show" role="alert">
                   <p>
-                       Click <a href="coupon.html" class="alert-link">Here</a> and copy coupon code to get 50% discount on our new React and Redux Course. Or fill out the form by clicking on the Get Coupon button. Terms and conditions apply!!!  
+                       Click <a href="coupon.html" class="alert-link">Here</a> and copy coupon code to get 50% discount on our upcoming React and Redux Course. Or fill out the form by clicking on the Get Coupon button. Terms and conditions apply!!!  
                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                   </p> 
       </div>
@@ -244,14 +274,93 @@
  
 
   <br>
-  <hr>
+  
+
+<!-- OUR SERVICES -->
+  <section class="services m-1 mb-3" id="services">
+    <div class="container">
+      <h3 class="h3-sevices text-center mb-2">Other IT Services We Offer</h3>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card blue">
+      <img src="images/asset/images/ux.png" class="card-img-top it" alt="">
+      <div class="card-body blue">
+        <h5 class="card-title text-center blue">Website and Mobile App Development</h5>
+        <p class="card-text blue">We develop, host and maintain websites, web apps and mobile apps. We offer SEO services too.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card violet">
+      <img src="images/asset/images/web-design.png" class="card-img-top it">
+      <div class="card-body violet">
+        <h5 class="card-title text-center violet">Graphic Design</h5>
+        <p class="card-text violet">We design Logo, Banner, Billboard, Call Card, Magazines, Package design, Stickers, Certificates, ID Cards, All kinds of invites.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card green">
+      <img src="images/asset/images/presentation.png" class="card-img-top it">
+      <div class="card-body green">
+        <h5 class="card-title text-center green">IT Training</h5>
+        <p class="card-text green">  Graphic Design training, Web Design training, Microsoft Office training, Digital Media training and Computing.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card yellow">
+      <img src="images/asset/images/social-media.png" class="card-img-top it">
+      <div class="card-body yellow">
+        <h5 class="card-title text-center yellow">Digital Marketing</h5>
+        <p class="card-text yellow">Results-Diven Management; Facebook, Instagram, Twitter, LinkedIn, Snapchat, Google Business etc.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+
+<!-- CLIENTS SECTION -->
+
+  <section>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-center n">60<span class="plus-icon">+</span></h5>
+        <p class="card-text text-center v">Happy Clients</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-center n">150<span class="plus-icon">+</span></h5>
+        <p class="card-text text-center v">Completed Projects</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title text-center n">1280<span class="plus-icon">+</span></h5>
+        <p class="card-text text-center v">Hours of Support</p>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
 
 
                             <!-- SONNYTECH ACADEMY -->
 
-                            <h1>SonnyTech Academy</h1>
+                            <!-- <h1>SonnyTech Academy</h1>
+                             -->
+                             <img src="images/sonnytech academy -channel art.png" class="channel-art mt-3">
                             <div class="youtube mb-3">
-                              SonnyTech Academy is the official YouTube Channel of SonnyTech. It's focused on creating contents on Web Developing, PC tricks, Tech trends and a lot more. With SonnyTech's YouTube channel, lots of tutorials are available for free with links to access and download source codes used in each tutorial. 
+                              SonnyTech Academy is the official YouTube Channel of SonnyTech. It's focused on creating contents on web developing, programming, wordpress, PC tricks, Tech trends and a lot more. With SonnyTech's YouTube channel, lots of tutorials are available for free with links to access and download source codes used in each tutorial. 
 
                             </div>
 
@@ -265,13 +374,12 @@
 
 
                              <!--ABOUT ME SECTION-->
-    
-
-                             <div class="about"> </div>
+                            
+                               <div class="about"> </div>
                               <img class="rounded-circle mx-auto mt-3" src="sonny 2.jpeg" alt="image">
                               <p class="name"> AGBENYO SAMUEL</p>
-                              <p class="description">WEB DEVELOPER</p>
-                              <class class="intro"> <p class="hello">Hi👋, I'm Samuel Agbenyo.</p> 
+                              <p class="description">Developer & Content Creator</p>
+                              <class class="intro"> <p class="hello" id="about-me">Hi👋, I'm Samuel Agbenyo.</p> 
                                 I am the CEO of SonnyTech. I found love for tech during second year of high school and immediately developed interest in it. I'm very thankful to God and the people around me who have helped me come this far with my career as a developer. I'm also passionate about sharing this knowledge to everyone interested in learning to become a developer like me.
                                 <br>
                                 <br>
@@ -280,6 +388,8 @@
                               
                               </class>
                              
+                           
+                            
 
                               
                           <!-- </class> -->
@@ -298,7 +408,7 @@
           <a href="#"><img src="facebook.jpg.jpg" alt=""></a> -->
 
 
-         <a href=""><i class="fab fa-facebook-f"></i></a> 
+       <a href="mailto:samuelagbenyo067@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>     
        <a href="https://twitter.com/AgbenyoOfficial" target="_blank"><i class="fab fa-twitter"></i></a> 
        <a href="https://www.instagram.com/samuelagbenyo_official/" target="_blank"><i class="fab fa-instagram"></i></a>
        <a href="https://github.com/Sonnysam/Sonny" target="_blank"><i class="fab fa-github"></i></a>
