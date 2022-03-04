@@ -1,1 +1,0 @@
-# sonnytech-academy
