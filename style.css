@@ -41,6 +41,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 a.navbar-brand.sonny {
   font-size: 2rem;
@@ -302,7 +303,7 @@ img.proj {
 
 
 /* for mobile */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .whatsapp-icon {
     margin-top: 10px;
   }
@@ -326,7 +327,7 @@ img.proj {
     box-shadow: 2px 2px 3px #999;
   }
   img.rounded-circle.mx-xl-5.mt-3.my-image {
-    margin-left: 4.5rem;
+    margin-left: 2rem;
 }
 .card {
   margin-left: 4.8rem;
