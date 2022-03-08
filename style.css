@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,900&display=swap");
 
-*{
+/* *{
   box-shadow: none !important;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 :root {
   --color: #ff6734;
   --white: #fff;
@@ -17,6 +17,13 @@
   --dark-grey: #222831;
   --twitter: hsl(207, 93%, 46%);
   --fb: hsl(221, 89%, 41%);
+}
+html,body{
+   box-shadow: none !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /* FLOATING BUTTON*/
@@ -215,7 +222,12 @@ i.fa-solid.fa-globe:hover {
 .what{
 background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M234.55 321.02a31.7 31.7 0 1 0 62.93-7.72z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1394.46 317.59L1416.74 317.59L1416.74 339.87L1394.46 339.87z' fill='rgba(88%2c 186%2c 243%2c 1)'%3e%3c/path%3e%3cpath d='M584.53 268.72L630.49 268.72L630.49 314.68L584.53 314.68z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M129.84 350.13a20.22 20.22 0 1 0 24.19 32.4z' stroke='rgba(88%2c 186%2c 243%2c 1)'%3e%3c/path%3e%3cpath d='M410.76 36.09 a21.4 21.4 0 1 0 42.8 0 a21.4 21.4 0 1 0 -42.8 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M72.41 227.21 a33.31 33.31 0 1 0 66.62 0 a33.31 33.31 0 1 0 -66.62 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M239.3 334.05 a11.08 11.08 0 1 0 22.16 0 a11.08 11.08 0 1 0 -22.16 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M949.46 320.97a45.24 45.24 0 1 0 13.89-89.41z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M8.57 366.52 a18.07 18.07 0 1 0 36.14 0 a18.07 18.07 0 1 0 -36.14 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M858.49 23.52L906.62 23.52L906.62 61.41L858.49 61.41z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1214.84 170.74L1239.91 170.74L1239.91 206.58L1214.84 206.58z' fill='rgba(88%2c 186%2c 243%2c 1)'%3e%3c/path%3e%3cpath d='M1050.65 177.4L1079.91 177.4L1079.91 191.47L1050.65 191.47z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1008.63 193.59L1028.23 193.59L1028.23 247.32L1008.63 247.32z' stroke='rgba(88%2c 186%2c 243%2c 1)'%3e%3c/path%3e%3cpath d='M240.09 362.76 a49.76 49.76 0 1 0 99.52 0 a49.76 49.76 0 1 0 -99.52 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M428.47 388.7 a9.42 9.42 0 1 0 18.84 0 a9.42 9.42 0 1 0 -18.84 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1175.11 47.27a55.43 55.43 0 1 0-47.59 100.12z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1007.64 473.42 a54.8 54.8 0 1 0 109.6 0 a54.8 54.8 0 1 0 -109.6 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M708.55 152.94L713.07 152.94L713.07 157.46L708.55 157.46z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M6.07 67.33L50.75 67.33L50.75 122.23L6.07 122.23z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1351.12 484.44 a41.04 41.04 0 1 0 82.08 0 a41.04 41.04 0 1 0 -82.08 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M675.59 237.39 a16.6 16.6 0 1 0 33.2 0 a16.6 16.6 0 1 0 -33.2 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M995.95 240.7L1020.98 240.7L1020.98 291.35L995.95 291.35z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1134.17 371.76L1167.86 371.76L1167.86 388.23L1134.17 388.23z' stroke='rgba(88%2c 186%2c 243%2c 1)'%3e%3c/path%3e%3cpath d='M1363.33 150.26L1372.1 150.26L1372.1 202.98L1363.33 202.98z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M810.63 231.69 a18.48 18.48 0 1 0 36.96 0 a18.48 18.48 0 1 0 -36.96 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M299.67 343.07L353.87 343.07L353.87 354.44L299.67 354.44z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M658.87 557.15L662.74 557.15L662.74 561.02L658.87 561.02z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M142.4 11.78a43.57 43.57 0 1 0-46.39 73.76z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1069.02 395.22L1096.39 395.22L1096.39 449.74L1069.02 449.74z' fill='rgba(88%2c 186%2c 243%2c 1)'%3e%3c/path%3e%3cpath d='M806.5 180.22L816.72 180.22L816.72 185.85L806.5 185.85z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M878.62 380.56a44.22 44.22 0 1 0 56.45 68.09z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M376.76 307.22L428.89 307.22L428.89 308.88L376.76 308.88z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M586.56 284.54a44.25 44.25 0 1 0 72.89 50.19z' stroke='rgba(88%2c 186%2c 243%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
-
+img.proj {
+    width: 400px;
+    height: auto;
+    margin: 1rem auto;
+    max-width: 88%;
+}
 
 
 /* SKILLS SECTION */
@@ -230,16 +242,12 @@ img.card-img-top {
 .skills{
    background-color: rgb(221, 221, 221);
 }
-
-
-
-/* FEATURED PROJECTS SECTION */
-img.proj {
-  width: 450px;
-  height: auto;
-  margin: 0.6rem auto;
-  /* overflow-x: hidden; */
+.card{
+  margin-right: 10%;
+  margin-left: 10%;
 }
+
+
 
 /* FREELANCING SECTION */
 .free{
@@ -254,51 +262,6 @@ img.proj {
   color: white;
   padding: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -330,7 +293,9 @@ img.proj {
     margin-left: 2rem;
 }
 .card {
-  margin-left: 4.8rem;
-  margin-top: 1rem ;
+  margin: 1rem auto;
+}
+img.proj{
+  margin: 1rem 1.5rem ;
 }
 }
